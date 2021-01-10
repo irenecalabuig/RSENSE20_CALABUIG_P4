@@ -1,8 +1,10 @@
+//---------------------------------------- PRÁCTICA 4 ----------------------------------------//
+// Ejercicio 1 (PARTE 2): Comprueba la conectividad con Google mediante un ping.
 #include <WiFi.h>
 #include <ESP32Ping.h>
  
-const char* ssid     = "Aise"; // Nombre de mi wifi
-//const char* password = ""; // Contraseña de mi casa
+const char* ssid     = "Aise1"; // Nombre de mi wifi
+//const char* password = "01234567"; // Contraseña 
 
 void setup() {
   Serial.begin(115200);
@@ -21,9 +23,8 @@ void setup() {
     return;
   }
  
-  Serial.println("Ping succesful.");
- 
- 
+  Serial.println("Ping succesful."); 
 }
  
-void loop() { }
+void loop() { 
+}
